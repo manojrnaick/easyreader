@@ -1,0 +1,29 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	
+	background:#005500;
+    position: fixed;
+}
+#content {
+	padding:10px;
+	padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+	width:100%;
+	bottom:0;
+	position:fixed;
+	background:#005500;
+}
+
+#container {
+   height:100%;
+}
